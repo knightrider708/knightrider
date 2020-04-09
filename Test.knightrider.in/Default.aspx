@@ -8,8 +8,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <center>
+    <div style="width: 100%; text-align: center;">
+       
     <p>
             <asp:Button ID="Button1" runat="server" Text="Get Time Now" />
             <br />
@@ -34,7 +34,7 @@
                       <br />
             <asp:Button ID="Button2" runat="server" Text="Clear" /></p>
 
-            </center>
+           
     </div>
 </form>
 </body>
