@@ -10,6 +10,7 @@ Partial Class _Default
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         TextBox1.Text = ""
         TextBox2.Text = ""
+        TextBox3.Text = ""
     End Sub
 
 
@@ -20,5 +21,8 @@ Partial Class _Default
             IPAdd = Request.ServerVariables("REMOTE_ADDR")
         End If
         TextBox2.Text = IPAdd
+    End Sub
+    Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        TextBox3.Text = "Number"
     End Sub
 End Class

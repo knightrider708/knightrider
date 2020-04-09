@@ -30,6 +30,14 @@
             <asp:TextBox ID="TextBox2" runat="server" Width="324px" Font-Bold="True" ForeColor="#CC3300"></asp:TextBox>
 
             </p>
+                 <p>
+            <asp:Button ID="Button4" runat="server" Text="Number" /></p>
+            <br />
+            <p>
+            
+            <asp:TextBox ID="TextBox3" runat="server" Width="324px" Font-Bold="True" ForeColor="#CC3300"></asp:TextBox>
+
+            </p>  
                     <p>
                       <br />
             <asp:Button ID="Button2" runat="server" Text="Clear" /></p>
